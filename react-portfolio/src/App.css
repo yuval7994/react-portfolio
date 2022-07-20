@@ -1,0 +1,60 @@
+body {
+  background-color: #d9dcd6;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.App {
+  height: calc(100vh - 150px);
+  padding: 0px 20px;
+}
+
+.App-Header {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App-Header h1 {
+  font-size: 24px;
+}
+
+.App-Header nav {
+  display: flex;
+  gap: 10px;
+}
+
+.App-Header a {
+  cursor: pointer;
+}
+
+.App-Header a:hover {
+  text-decoration: underline;
+}
+
+.App-Header .active {
+  font-weight: bold;
+}
+
+.App-Footer {
+  display: flex;
+  flex-shrink: 0;
+}
+
+.images {
+  width: 20vw;
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  /* padding: 20px; */
+  margin: 5px 5px 5px 5px;
+  /* position: relative; */
+}
+
+.grid-container {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto;
+  margin-bottom: 50px;
+}
